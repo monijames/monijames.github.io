@@ -1,0 +1,99 @@
+/* Static state */
+#container 	{ 
+	width: 636px; 
+    height: 600px; 
+    position: absolute; 
+}
+
+.background {
+	margin-top: 5%;
+	width: 100%;
+	height: 100%;
+    background-size: 100% 75%;
+    background-position: 50% 50%;
+    background-image: url('invitation-front-middle.png');
+    background-repeat: no-repeat;
+}
+
+.left1 	{ 
+	/* left side animation container */
+	width: 50%;
+	height: 100%; 
+	float: left;
+	overflow: hidden;
+	perspective: 1000px;
+}
+
+.right1 	{ 
+	/* right side animation container */
+    margin-left: 25%;
+    width: 50%;
+	height: 100%; 
+	overflow: hidden;
+	perspective: 1000px;
+}
+
+.left2 {
+	margin-top: 23.5%;
+    margin-left: 50%;
+	height: 75%; 
+    width: 25%;
+    transition-property: transform; 
+	transition-duration: 2s;
+	transform: rotateY(0deg);
+    transform-origin: left;
+    transform-style: preserve-3d;
+}
+
+.right2 {
+	margin-top: 23.5%;
+	height: 75%; 
+    width: 25%;
+    transition-property: transform; 
+	transition-duration: 2s;
+	transform: rotateY(0deg);
+    transform-origin: 200%;
+    transform-style: preserve-3d;
+}
+
+.left3,
+.backleft3	{ 
+	/* animated, "folded" block */
+	position: absolute;
+	height: 100%; 
+    width: 200%;
+    background-image: url('invitation-back-m.png');
+    background-size: 100% 100%; 
+    backface-visibility: hidden;
+}
+
+.backleft3 {
+    background-image: url('invitation-front-left.png');
+	transform: rotateY(180deg);
+}
+
+#container:hover .left2	{
+	transform: rotateY(-180deg); 
+	height: 75%; 
+}
+
+.right3,
+.backright3	{ 
+	/* animated, "folded" block */
+	position: absolute;
+    height: 100%; 
+    width: 200%;
+    background-image: url('invitation-back-j.png');
+    background-size: 100% 100%;
+}
+
+.backright3 {
+	background-image: url('invitation-front-right.png');
+	transform: rotateY(180deg);
+}
+
+
+#container:hover .right2	{
+	transform: rotateY(180deg); 
+	height: 75%; 
+}
