@@ -34,7 +34,7 @@
 }
 
 .left2 {
-	margin-top: 23.5%;
+	margin-top: 23.7%;
     margin-left: 50%;
 	height: 75%; 
     width: 25%;
@@ -46,7 +46,7 @@
 }
 
 .right2 {
-	margin-top: 23.5%;
+	margin-top: 23.7%;
 	height: 75%; 
     width: 25%;
     transition-property: transform; 
@@ -64,7 +64,8 @@
     width: 200%;
     background-image: url('invitation-back-m.png');
     background-size: 100% 100%; 
-    backface-visibility: hidden;
+	backface-visibility: hidden;
+	background-repeat: no-repeat;
 }
 
 .backleft3 {
@@ -84,7 +85,8 @@
     height: 100%; 
     width: 200%;
     background-image: url('invitation-back-j.png');
-    background-size: 100% 100%;
+	background-size: 99.85% 100%;
+	background-repeat: no-repeat;
 }
 
 .backright3 {
