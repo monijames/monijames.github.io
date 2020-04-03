@@ -2,7 +2,8 @@
 #container 	{ 
 	width: 636px; 
     height: 600px; 
-    position: absolute; 
+	position: relative; 
+	margin: 0 auto;
 }
 
 .background {
@@ -12,7 +13,7 @@
     background-size: 100% 75%;
     background-position: 50% 50%;
     background-image: url('invitation-front-middle.png');
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
 .left1 	{ 
