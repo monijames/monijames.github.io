@@ -74,11 +74,14 @@
 	transform: rotateY(180deg);
 }
 
-@media(hover: hover) and (pointer: fine) {
-	#container:hover .left2	{
-		transform: rotateY(-180deg); 
-		height: 75%; 
-	}
+#container:hover .left2	{
+	transform: rotateY(-180deg); 
+	height: 75%; 
+}
+
+#container:active .left2	{
+	transform: rotateY(-180deg); 
+	height: 75%; 
 }
 
 .right3,
@@ -97,11 +100,14 @@
 	transform: rotateY(180deg);
 }
 
-@media(hover: hover) and (pointer: fine) {
-	#container:hover .right2	{
-		transform: rotateY(180deg); 
-		height: 75%; 
-	}
+#container:hover .right2	{
+	transform: rotateY(180deg); 
+	height: 75%; 
+}
+
+#container:active .right2	{
+	transform: rotateY(180deg); 
+	height: 75%; 
 }
 
 .rsvp {
