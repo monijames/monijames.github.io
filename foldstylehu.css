@@ -12,7 +12,7 @@
 	height: 100%;
     background-size: 100% 75%;
     background-position: 50% 50%;
-    background-image: url('invitation-front-middle.png');
+    background-image: url('invitation-front-middle-hu.png');
 	background-repeat: no-repeat;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .backleft3 {
-    background-image: url('invitation-front-left.png');
+    background-image: url('invitation-front-left-hu.png');
 	transform: rotateY(180deg);
 }
 
@@ -91,7 +91,7 @@
 }
 
 .backright3 {
-	background-image: url('invitation-front-right.png');
+	background-image: url('invitation-front-right-hu.png');
 	transform: rotateY(180deg);
 }
 
@@ -103,9 +103,9 @@
 
 .rsvp {
 	position: absolute;
-	left: 42%;
+	left: 36%;
 	top: 72%;
-	width: 30%;
+	width: 27%;
 	height: 5%;
 }
 
