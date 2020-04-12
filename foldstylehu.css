@@ -79,6 +79,11 @@
     height: 75%; 
 }
 
+#container:active .left2	{
+    transform: rotateY(-180deg); 
+    height: 75%; 
+}
+
 .right3,
 .backright3	{ 
 	/* animated, "folded" block */
@@ -102,6 +107,10 @@
     height: 75%; 
 }
 
+#container:active .right2	{
+	transform: rotateY(180deg); 
+	height: 75%; 
+}
 
 .rsvp {
 	position: absolute;
