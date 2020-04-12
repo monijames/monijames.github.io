@@ -92,6 +92,7 @@
     width: 200%;
     background-image: url('invitation-back-j.png');
 	background-size: 99.85% 100%;
+	backface-visibility: hidden;
 	background-repeat: no-repeat;
 }
 
