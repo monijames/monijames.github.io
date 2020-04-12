@@ -66,6 +66,7 @@
     background-image: url('invitation-back-m.png');
 	background-size: 100% 100%; 
 	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 	background-repeat: no-repeat;
 }
 
@@ -93,6 +94,7 @@
     background-image: url('invitation-back-j.png');
 	background-size: 99.85% 100%;
 	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 	background-repeat: no-repeat;
 }
 
