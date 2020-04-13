@@ -4,6 +4,7 @@
     height: 600px; 
 	position: relative; 
 	margin: 0 auto;
+	cursor: pointer;
 }
 
 .background {
@@ -80,7 +81,7 @@
     height: 75%; 
 }
 
-#container:active .left2	{
+#container: .left2	{
     transform: rotateY(-180deg); 
     height: 75%; 
 }
